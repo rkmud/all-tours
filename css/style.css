@@ -248,16 +248,17 @@ input::-webkit-inner-spin-button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 800px;
+  width: 900px;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
 }
 .header__nav-list--top {
   position: relative;
+  padding-bottom: 10px !important;
 }
 .header__nav-list--bottom {
-  margin-top: 5px;
+  padding-top: 10px !important;
 }
 .header__nav-list--top::after {
   content: '';
